@@ -1,0 +1,7 @@
+FindMax(x, n)
+input: x (მასივი n ელემენტით)
+output: Max - მაქსიმალური ელემენტით
+Max <- X[0]
+    if X[i] > Max then
+          Max <- X[i]
+Return Max

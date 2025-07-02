@@ -10,6 +10,12 @@ body {
     position: relative;
     
 }
+.menu img,
+.nav-link img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
 
 * {
     padding: 0;
@@ -511,4 +517,3 @@ footer a:hover {
     justify-content: center;
     align-items: center;
 }
-    

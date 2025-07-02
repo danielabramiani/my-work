@@ -10,4 +10,3 @@ dropdown.forEach(function(item){
         item.parentElement.classList.toggle('link-open');
     })
 })
-
