@@ -23,7 +23,7 @@ typedef struct {
     int freeThrowsMade; // Free throws made
 } Player;
 
-// Function to print player details
+
 void printPlayer(Player player) {
     printf("Name: %s, Points: %d, Assists: %d, Rebounds: %d, Steals: %d, Blocks: %d, Fouls: %d\n",
            player.name, player.points, player.assists, player.rebounding, player.steals, player.blocks, player.fouls);
